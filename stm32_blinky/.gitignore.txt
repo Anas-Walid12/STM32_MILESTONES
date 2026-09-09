@@ -1,0 +1,12 @@
+# Ignore all temporary build artifacts in Debug, but KEEP the .hex file
+/Debug/*
+!/Debug/*.hex
+/Release/*
+!/Release/*.hex
+
+# Ignore Eclipse / CubeIDE user metadata
+.settings/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
